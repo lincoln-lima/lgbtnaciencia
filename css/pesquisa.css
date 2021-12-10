@@ -1,0 +1,112 @@
+.corpo {
+    font-family: 'Roboto Condensed';
+    font-weight: lighter;
+    margin: 2% 12% 4% 12%;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 350%;
+    margin-bottom: 5%;
+}
+
+#titulo-saude {
+    color: #FF6571;
+}
+
+#titulo-cura {
+    color: #FF9C2F;
+}
+
+#titulo-trans {
+    color: #2FC94F;
+}
+
+#titulo-turing {
+    color: #0079E9;
+}
+
+div {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.img-pesquisa {
+    width: 35%;
+}
+
+#descricao {
+    font-size: 80%;
+    display: inline;
+    text-align: center;
+}
+
+#texto {
+    font-size: 150%;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+#referencias {
+    padding: 2%;
+    background-color: #BDEDC1;
+    font-size: 115%;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+#referencias li {
+    text-align: left;
+}
+
+#referencias a {
+    text-decoration: none;
+    color: black;
+}
+
+#referencias a:hover {
+    text-decoration: underline;
+}
+
+/* ------------------ mobile ------------------*/
+@media screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 270%;
+        margin-bottom: 9%;
+    }
+
+    div {
+        margin-bottom: 9%;
+    }
+
+    .img-pesquisa {
+        width: 80%;
+    }
+
+    #descricao {
+        font-size: 55%;
+    }
+
+    #texto {
+        font-size: 120%;
+        margin-bottom: 15%;
+    }
+
+    #referencias {
+        padding: 3%;
+    }
+
+    #referencias h2 {
+        font-size: 80%
+    }
+
+    #referencias a {
+        font-size: 60%;
+    }
+
+}

@@ -1,0 +1,112 @@
+#titulo {
+    color: #0079EF;
+    font-size: 70px;
+    padding: 0 0 20px 0;
+    font-family: 'Bebas Neue';
+    margin-left: 3%;
+}
+
+#texto {
+    text-align: justify;
+    font-weight: lighter;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.equipe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10% 0 10%;
+}
+
+.membro {
+    display: inline-block;
+    padding: 50px 20px;
+    font-weight: lighter;
+}
+
+.membro:hover h2 {
+    font-size: 30px;
+}
+
+.imagem {
+    width: 200px;
+    float: center;
+    padding: 0 20px 0 20px;
+}
+
+#gaby {
+    color: #FF6571;
+}
+
+.nomes {  
+    font-weight: bold;
+    text-align: center;
+    font-size: 26px;
+    padding: 5px 0;
+}
+
+.bolinha {
+    list-style-type: circle;
+    text-align: left;
+}
+
+#lincoln {
+    color: #ff9c2f;
+}
+
+#maria {
+    color: #D745F0;
+}
+
+/* .professor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} */
+
+#professor {
+    color: #2FC94F;
+}
+
+#lattes {
+    text-decoration: none;
+    color: #0079E9;
+    font-size: 20px;
+    text-align: center;
+}
+
+#lattes:hover {
+    text-decoration: underline;
+}
+
+/* ------------------ mobile ------------------*/
+@media (max-width: 768px){
+
+    #titulo {
+        font-size: 60px;
+        text-align: center;
+        margin-left: 0;
+        padding-bottom: 10px;
+    }
+
+    #texto {
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+
+    .equipe {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;     
+       
+    }
+
+    .membro {
+        padding: 30px 20px;
+    }
+}

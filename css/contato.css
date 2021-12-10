@@ -1,0 +1,131 @@
+.contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin: 1% 5%;
+}
+
+.formulario {
+    width: 48%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    background-color: #f9d9ff;
+    padding: 2% 2%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#nomesobrenome {
+    color: #FF6571;
+}
+
+.padrao {
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 8px 50px;
+    margin: 0 0 20px 0;
+    border: none;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+#email {
+    color: #ff9c2f;
+}
+
+#tel {
+    color: #2FC94F;
+}
+
+#opiniao {
+    color: #0079EF;
+}
+
+.enviar {
+    font-family: 'Bebas Neue', sans-serif;
+    width: 40%;
+    background-color: #D745F0;
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s background;
+    cursor: pointer;
+    -webkit-text-stroke: 0.7px #000000;
+
+    margin: 0 auto;
+}
+
+.enviar:hover {
+    background-color: indigo;
+}
+
+.enfeite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#carta {
+    width: 50%;
+}
+
+#textinho {
+    display: inline-block;
+    font-size:750%;
+    color: #D745F0;
+    font-family: 'Bebas Neue';
+}
+
+/* ------------------ mobile ------------------*/
+@media (max-width: 768px){
+
+    .contato{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+
+        align-items: center;
+
+        margin: 0;
+
+        width: 100%;
+    }
+
+    .formulario {
+        width: 70%;
+        font-size: 30px;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+
+    .padrao {
+        font-size: 15px;
+        padding: 6px 30px;
+    }
+
+    .enviar{
+
+        -webkit-text-stroke: 0.2px #000000;
+
+    font-size: 80%;
+    }
+
+    .enfeite {
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 8%;
+    }
+
+    #carta {
+        width: 30%;
+    }
+
+    #textinho {
+        font-size: 350%;
+    }
+}

@@ -1,0 +1,136 @@
+.cabecalho {
+    margin-bottom: 0;
+}
+
+.corpo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 650%;
+}
+
+#parte-rosa {
+    padding-top: 5%;
+    background-color: #f8e3fc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-left: 7%;
+    color: #d745f0;
+    text-transform: uppercase;
+}
+
+#img-cientista {
+    width: 37%;
+}
+
+#parte-branca {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% 0;
+    margin: 0 2%;
+}
+
+#atomo {
+    width: 23%;
+    margin-right: 6%;
+}
+
+h2 {
+    color: #2FC94F;
+    margin-bottom: 3%;
+}
+
+p {
+    font-family: 'Roboto Condensed';
+    font-size: 30%;
+    font-weight: lighter;
+}
+
+#lista-pesquisas {
+    margin: 0 2%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pesquisas {
+    text-align: center;
+    width: 48%;
+    margin-bottom: 2%;
+    padding: 10% 0;
+}
+
+#saude {
+    background-color: #FBB4D2;
+}
+
+#saude:hover {
+    background-color: #FF6571;
+}
+
+#cura {
+    background-color: #FFD595;
+}
+
+#cura:hover {
+    background-color: #FF9C2F;
+}
+
+#trans {
+    background-color: #BDEDC1;
+}
+
+#trans:hover {
+    background-color: #2FC94F;
+}
+
+#turing {
+    background-color: #8FC4F5;
+}
+
+#turing:hover {
+    background-color: #0079E9;
+}
+
+#link-pesquisa {
+    font-size: 65%;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+#link-pesquisa:hover {
+    text-decoration: underline;
+}
+
+.rodape {
+    margin-top: 3%;
+}
+
+/* ------------------ mobile ------------------*/
+@media screen and (max-width: 768px){
+
+    .corpo {
+        font-size: 175%;
+    }
+
+    #parte-branca {
+        padding: 10% 0;
+    }
+
+    #atomo {
+        width: 30%;
+    }
+
+    div {
+        margin-right: 2%;
+    }
+
+    #link-pesquisa {
+        font-size: 70%;
+    }
+
+}
